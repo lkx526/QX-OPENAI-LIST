@@ -307,7 +307,7 @@
     },
     {
       "tag": "AI",
-      "type": "selector",
+      "type": "urltest",
       "outbounds": [
         "{all}",
         "proxy"
