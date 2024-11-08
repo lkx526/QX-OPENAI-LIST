@@ -99,8 +99,8 @@
       "type": "selector",
       "outbounds": [
         "TaiWan",
-        "Singapore",
-        "Gpt",
+        "AI",
+        "Japan",
         "America",
         "Others"
       ],
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "tag": "Gpt",
+      "tag": "AI",
       "type": "selector",
       "outbounds": [
         "{all}",
@@ -316,7 +316,7 @@
         {
           "action": "include",
           "keywords": [
-            "(gpt|GPT|ChatGPT)"
+            "gpt|GPT|ChatGPT"
           ]
         }
       ]
@@ -332,7 +332,7 @@
         {
           "action": "include",
           "keywords": [
-            "馃嚟馃嚢|HK|hk|棣欐腐|娓瘄HongKong"
+            "🇭🇰|HK|hk|香港|港|HongKong"
           ]
         }
       ]
@@ -348,7 +348,7 @@
         {
           "action": "include",
           "keywords": [
-            "馃嚬馃嚰|TW|tw|鍙版咕|鑷虹仯|鍙皘Taiwan"
+            "🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"
           ]
         }
       ]
@@ -364,7 +364,7 @@
         {
           "action": "include",
           "keywords": [
-            "馃嚫馃嚞|SG|sg|鏂板姞鍧鐙畖Singapore"
+            "🇸🇬|SG|sg|新加坡|狮|Singapore"
           ]
         }
       ]
@@ -380,7 +380,7 @@
         {
           "action": "include",
           "keywords": [
-            "馃嚡馃嚨|JP|jp|鏃ユ湰|鏃Japan"
+            "🇯🇵|JP|jp|日本|日|Japan"
           ]
         }
       ]
@@ -396,7 +396,7 @@
         {
           "action": "include",
           "keywords": [
-            "馃嚭馃嚫|US|us|缇庡浗|缇巪United States"
+            "🇺🇸|US|us|美国|美|United States"
           ]
         }
       ]
@@ -412,7 +412,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "馃嚟馃嚢|HK|hk|棣欐腐|棣檤馃嚬馃嚰|TW|tw|鍙版咕|鍙皘馃嚫馃嚞|SG|sg|鏂板姞鍧鐙畖馃嚡馃嚨|JP|jp|鏃ユ湰|鏃馃嚭馃嚫|US|us|缇庡浗|缇?
+            "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"
           ]
         }
       ]
@@ -427,7 +427,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "缃戠珯|鍦板潃|鍓╀綑|杩囨湡|鏃堕棿|鏈夋晥"
+            "网站|地址|剩余|过期|时间|有效"
           ]
         }
       ],
